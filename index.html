@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <link rel="icon" size="16x16 32x32 48x48" type="image/svg+xml"
+    href="https://cdn-icons-png.flaticon.com/128/3090/3090490.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Hospital</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    if (window !== window.top) {
+      window.top.location = window.location; // Break out of iframes
+    }
+  </script>
+</body>
+
+</html>
